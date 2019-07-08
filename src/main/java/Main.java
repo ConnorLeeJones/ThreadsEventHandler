@@ -8,7 +8,19 @@ public class Main {
         Stream.of(
             // You may add more listeners if you would like once all tests are passing
             new EventListener("apple", "I love macbooks"),
-            new EventListener("java", "I could go for some coffee")
+            new EventListener("java", "I could go for some coffee"),
+                new EventListener("event", "listener"),
+                new EventListener("zipcode", "_     /)---(\\          /~~~\\\n" +
+                        "\\\\   (/ . . \\)        /  .. \\\n" +
+                        " \\\\__)-\\(*)/         (_,\\  |_)\n" +
+                        " \\_       (_         /   \\@/    /^^^\\\n" +
+                        " (___/-(____) _     /      \\   / . . \\\n" +
+                        "              \\\\   /  `    |   V\\ Y /V\n" +
+                        "               \\\\/  \\   | _\\    / - \\\n" +
+                        "                \\   /__'|| \\\\_  |    \\\n" +
+                        "                 \\_____)|_).\\_).||(__V")
+
+
         ).forEach(Thread::start);
 
         System.out.println("Start typing messages to the console now. Enter \"quit\" to exit the program");
